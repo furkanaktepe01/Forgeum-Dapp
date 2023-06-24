@@ -1,7 +1,7 @@
 import { ethers } from "ethers";
 import { useContext, useEffect, useState } from 'react';
 import { X } from 'react-bootstrap-icons';
-import { Col, Row, Table, Card, ListGroup, Container, Button } from 'react-bootstrap';
+import { Col, Row, Table, Card, ListGroup, Container, Button, Spinner } from 'react-bootstrap';
 
 import { EthersContext } from "../utils/EthersContext";
 import { checkNetwork, checkWalletNetwork, getNewBrowserProvider } from "../utils/Wallet";
@@ -115,7 +115,7 @@ const Profile = () => {
                     </Row></>
             }</h3></Card.Header>
         </Card> :
-        <></>
+        <Spinner animation="border" variant="dark" />
     );
 
     const tokenBalancesInfo = (
