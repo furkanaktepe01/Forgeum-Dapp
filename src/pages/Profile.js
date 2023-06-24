@@ -115,7 +115,7 @@ const Profile = () => {
                     </Row></>
             }</h3></Card.Header>
         </Card> :
-        <Spinner animation="border" variant="dark" />
+        <></>
     );
 
     const tokenBalancesInfo = (
@@ -141,7 +141,7 @@ const Profile = () => {
                     })
                 }</tbody>
             </Table> :
-            <></>
+            <Spinner animation="border" variant="dark" />
     );
 
     return (
