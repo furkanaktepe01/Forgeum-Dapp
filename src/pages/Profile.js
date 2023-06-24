@@ -75,7 +75,7 @@ const Profile = () => {
             tokenIds = [...tokenIds, ...transferBatchEvents[i].args[3]];
         }
 
-        return [...new Set(tokenIds)].sort().map((n) => parseInt(n));
+        return [...new Set(tokenIds)].map((n) => parseInt(n)).sort((a, b) => a - b);
     }
 
     const accountInfo = (
