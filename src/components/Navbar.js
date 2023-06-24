@@ -53,7 +53,7 @@ const NavBar = () => {
 
   return (
     <div>
-      <Navbar bg="dark" data-bs-theme="dark">
+      <Navbar bg="dark" data-bs-theme="dark" fixed="top">
         <Container>
           <Navbar.Brand href="/"><h1>Forgeum</h1></Navbar.Brand>
           <Nav className="me-auto">
@@ -73,7 +73,7 @@ const NavBar = () => {
           }
         </Container>
       </Navbar>
-      <br/><br/>
+      <br/><br/><br/><br/><br/><br/>
     </div>
   );
 }
