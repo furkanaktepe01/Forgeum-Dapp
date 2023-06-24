@@ -132,6 +132,7 @@ const App = () => {
         </Routes>
       </Container>
       </EthersContext.Provider>
+      <br/><br/><br/>
     </div>
   );
 }
