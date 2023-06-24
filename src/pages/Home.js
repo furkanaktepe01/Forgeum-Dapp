@@ -29,6 +29,12 @@ const Home = () => {
                     Forgeum tokens  <a style={{ color: "white"}} href="/profile">here</a>. 
                 </i></Card.Body>
             </Card><br/>
+            <Card bg="secondary" text="white" style={{ width: "50rem" }}>
+                <Card.Body style={{ fontSize: "20px"}}><i>
+                    Altough every operation of Forgeum is free of charge,<br/>you still need to have a small amount of test matic to pay for the transaction gas costs.<br/>
+                    If you don't already have any in your wallet, use <a style={{ color: "white"}} target="_blank" href="https://faucet.polygon.technology/">this faucet</a> to get some for free. 
+                </i></Card.Body>
+            </Card><br/>
             <Card bg="secondary" text="white" style={{ width: "25rem" }}>
                 <Card.Body style={{ fontSize: "20px"}}><i>
                     See the code of the contracts <a style={{ color: "white"}} target="_blank" href="https://github.com/furkanaktepe01/Forgeum">here</a>. 
