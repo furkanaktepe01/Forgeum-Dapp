@@ -117,7 +117,7 @@ const App = () => {
   }
 
   return (
-    <div onClick={async () => {await fetchRuleEvents()}}>
+    <div>
       <EthersContext.Provider value={ contextValues }>
       <Navbar/>
       <Container>
