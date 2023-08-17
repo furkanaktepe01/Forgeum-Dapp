@@ -1,5 +1,3 @@
-const ALCHEMY_API_KEY = process.env.REACT_APP_ALCHEMY_API_KEY;
-
 export const PolygonMainnet = {
     chainId: "0x89",
     rpcUrls: ["https://polygon-rpc.com/"],
@@ -14,7 +12,7 @@ export const PolygonMainnet = {
 
 export const PolygonMumbai = {
     chainId: "0x13881",
-    rpcUrls: [`https://polygon-mumbai.g.alchemy.com/v2/${ALCHEMY_API_KEY}`],
+    rpcUrls: [`https://polygon-mumbai.g.alchemy.com/v2/sdw5U7kfxpgf9vRsuv9xUKz1W91id3qb`],
     chainName: "Mumbai Testnet",
     nativeCurrency: {
       name: "MATIC",
